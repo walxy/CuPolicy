@@ -1,2 +1,2 @@
 # CuPolicy
-CuPolicy aims to provide an explainable control plane between GPU applications/frameworks and execution mechanisms, allowing execution strategies to be selected according to measured economics, memory constraints, lifecycle state, and safety conditions rather than static heuristics alone.
+CuPolicy is a framework-neutral GPU execution control plane that observes workload behavior and makes explainable execution-policy decisions across eager and CUDA Graph execution. It combines execution identity, contract validation, performance economics, memory-aware admission, graph lifecycle control, safety state management, shadow evaluation, and controlled execution without attempting to replace CUDA, PyTorch, TensorRT, vLLM, or SGLang.
